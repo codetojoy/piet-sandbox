@@ -5,7 +5,8 @@
 * from command-line: `./run.sh $IMAGE_FILE`
 * from docker container:
     - `./debug.sh`
-    - `# ~/npiet -cs 1 -t /code/$IMAGE_FILE`
+    - eg1: `# ~/npiet -cs 1 -t /code/$IMAGE_FILE`
+    - eg2: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
 
 ### tmp notes 
 
