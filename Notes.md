@@ -3,17 +3,13 @@
 
 * requires Docker and image at [1]
 * from command-line: `./run.sh $IMAGE_FILE`
+    - this isn't working yet, as we need to pass flags `-cs 1` to `npiet`
 * from docker container:
     - `./debug.sh`
     - eg1: `# ~/npiet -cs 1 -t /code/$IMAGE_FILE`
-    - eg2: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
-
-### tmp notes 
-
-in docker container
-- ~/npiet -cs 9 -t /code/generator/print_q.png
-    - 17-MAR-2022
-    - prints Q but doesn't stop
+    - eg2: `# ~/npiet -cs 1 /code/generator-py/print_q.png`
+    - eg3: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
+        - for trouble-shooting
 
 ### Resources
 
