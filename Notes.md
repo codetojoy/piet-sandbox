@@ -11,6 +11,13 @@
     - eg3: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
         - for trouble-shooting
 
+### TODO
+
+* solve problem of running `./run.sh` and passing flags to inner `npiet`
+* use CSS/SVG to create image?
+* find simple pixel editor?
+* ascii converter, using Pillow/python?
+
 ### Resources
 
 * [1] - Docker image: https://hub.docker.com/r/esolang/piet
