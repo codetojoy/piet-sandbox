@@ -28,6 +28,18 @@ Some programs (many are ultra-simple):
 * use CSS/SVG to create image?
 * ascii converter, using Pillow/python?
 
+### Brainstorm for talk
+
+* why
+    - satellite tech: Docker, Python
+    - one level down: CSS, SVG, etc
+    - lucky strike in interview
+* why not? (aka typical B.S.)
+    - lateral thinking
+    - mind-expansion
+    - opportunity cost (vs learning React)
+    - zero tooling, painful errors
+
 ### Resources
 
 * [1] - Docker image: https://hub.docker.com/r/esolang/piet
