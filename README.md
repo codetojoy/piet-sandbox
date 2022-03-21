@@ -14,12 +14,18 @@ collecting some resources on the esoteric language, Piet
     - eg3: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
         - for trouble-shooting
 
+### Index
+
+Some programs (many are ultra-simple):
+
+* print "Q" - `./generate-py/print_q.py` -> print_q.png
+* print "Q" - `./generate-py/print_q_2.py` -> print_q_2.png
+* print "Q" - ./images/print_q_3.png
+
 ### TODO
 
 * solve problem of running `./run.sh` and passing flags to inner `npiet`
 * use CSS/SVG to create image?
-* find simple pixel editor?
-    - online https://apps.lospec.com/pixel-editor
 * ascii converter, using Pillow/python?
 
 ### Resources
