@@ -19,11 +19,13 @@ collecting some resources on the esoteric language, Piet
 * solve problem of running `./run.sh` and passing flags to inner `npiet`
 * use CSS/SVG to create image?
 * find simple pixel editor?
+    - online https://apps.lospec.com/pixel-editor
 * ascii converter, using Pillow/python?
 
 ### Resources
 
 * [1] - Docker image: https://hub.docker.com/r/esolang/piet
+* [2] - Dockerfile: https://github.com/hakatashi/esolang-box/tree/master/boxes/piet
 * online interpreter: https://www.bertnase.de/npiet/npiet-execute.php
 * https://www.bertnase.de/npiet/picture.html
 * https://www.dangermouse.net/esoteric/piet.html

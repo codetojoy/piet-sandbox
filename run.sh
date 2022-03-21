@@ -14,5 +14,7 @@ echo "could not find specified file: ${IMAGE_FILE}"
 else 
 ###########################
 ### run in Docker container
-docker run --rm -v "$PWD":/code:ro esolang/piet ~/npiet -cs 1 /code/$IMAGE_FILE
+# original:
+docker run --rm -v "$PWD":/code:ro esolang/piet piet /code/$IMAGE_FILE
+# docker run --rm -v "$PWD":/code:ro esolang/piet piet "-cs 1 -t -e 10 /code/$IMAGE_FILE"
 fi
