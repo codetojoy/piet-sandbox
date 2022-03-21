@@ -53,12 +53,13 @@ b5 = b(5, block)
 b6 = b(6, block)
 b7 = b(7, block)
 
-offset = 5
+offset = 2
+s2 = b2 - offset
 s4 = b4 - offset
-# s3 = b3 + offset
+t5 = b5 + offset
 
 data[0:h, 0:w] = white
-data[0:h2, 0:w2] = black
+data[0:t5, b2:w2] = black
 data[0:b1, 0:b1] = blue            # push 9
 data[0:b1, b1:b2] = dark_blue      # push 9
 data[0:b1, b2:b3] = light_blue     # multiply
@@ -70,7 +71,7 @@ data[b2:b3, b4:b4a] = light_yellow # push
 data[b2:b3, b4a:b5] = yellow
 data[b3:b4, b4a:b5] = yellow
 # bottom stopper
-data[b4:b5, s4:b7] = yellow
+data[b4:b5, s4:b5] = yellow
 
 # write image
 
