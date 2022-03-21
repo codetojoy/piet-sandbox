@@ -11,8 +11,9 @@ collecting some resources on the esoteric language, Piet
     - `./debug.sh`
     - eg1: `# ~/npiet -cs 1 -t /code/$IMAGE_FILE`
     - eg2: `# ~/npiet -cs 1 /code/generator-py/print_q.png`
+* trouble-shooting in docker container:
     - eg3: `# ~/npiet -cs 1 -t -v -e 10 /code/generator-py/print_q.png > out.log`
-        - for trouble-shooting
+    - eg4: `# ~/npiet -cs 1 -t -e 10 /code/images/io_1.png > out.log`
 
 ### Index
 
@@ -21,10 +22,12 @@ Some programs (many are ultra-simple):
 * print "Q" - `./generate-py/print_q.py` -> print_q.png
 * print "Q" - `./generate-py/print_q_2.py` -> print_q_2.png
 * print "Q" - ./images/print_q_3.png
+* read char, print char - ./images/io_1.png
 
 ### TODO
 
 * solve problem of running `./run.sh` and passing flags to inner `npiet`
+* how to send input to `./run.sh` ?
 * use CSS/SVG to create image?
 * ascii converter, using Pillow/python?
 
