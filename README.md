@@ -30,6 +30,9 @@ Some programs (many are ultra-simple):
 * how to send input to `./run.sh` ?
 * use CSS/SVG to create image?
 * ascii converter, using Pillow/python?
+* next:
+    - read in a file
+    - print out lines in reverse order
 
 ### Brainstorm for talk
 
