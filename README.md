@@ -1,6 +1,6 @@
 ### piet-sandbox
 
-collecting some resources on the esoteric language, Piet
+collection of resources on the esoteric language, [Piet](https://en.wikipedia.org/wiki/Esoteric_programming_language#Piet)
 
 ### Usage
 
@@ -33,6 +33,13 @@ Some programs (many are ultra-simple):
 
 ### Brainstorm for talk
 
+* moon-shot
+    - port code to another language? 
+    - what can read an image? 
+* examples
+    - print PEI Devs
+    - Scooter ?
+    - use provincial flag as image ? 
 * why
     - satellite tech: Docker, Python
     - one level down: CSS, SVG, etc
@@ -51,3 +58,4 @@ Some programs (many are ultra-simple):
 * https://www.bertnase.de/npiet/picture.html
 * https://www.dangermouse.net/esoteric/piet.html
 * Rust compiler: https://github.com/tessi/rpiet/ 
+* source (for some version?): https://github.com/gleitz/npiet
